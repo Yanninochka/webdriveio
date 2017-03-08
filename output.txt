@@ -1,0 +1,30 @@
+# simple test
+
+$ ./node_modules/.bin/wdio wdio.conf.js
+
+
+# spec test
+
+$ ./node_modules/.bin/wdio wdio.conf.js
+=======================================================================================
+Selenium 2.0 / webdriver protocol bindings implementation with helper commands in nodejs.
+For a complete list of commands, visit http://webdriver.io/api.html.
+=======================================================================================
+
+[22:44:07]  COMMAND	POST 	 "/wd/hub/session"
+[22:44:07]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":5,"browserName":"firefox","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.6.2","name":"webdriverio"}}}
+[22:44:10]  INFO	SET SESSION ID 576aa13e-3733-4cbd-9cef-9b59505c5ff6
+[22:44:10]  RESULT		{"raisesAccessibilityExceptions":false,"loggingPrefs":{"driver":"ALL","browser":"ALL"},"appBuildId":"20170125094131","platform":"MAC","requestOrigins":{"name":"webdriverio","version":"4.6.2","url":"ht ... (2043 more bytes)
+[22:44:10]  COMMAND	POST 	 "/wd/hub/session/576aa13e-3733-4cbd-9cef-9b59505c5ff6/url"
+[22:44:10]  DATA		{"url":"http://webdriver.io"}
+[22:44:12]  RESULT		null
+[22:44:12]  COMMAND	GET 	 "/wd/hub/session/576aa13e-3733-4cbd-9cef-9b59505c5ff6/title"
+[22:44:12]  DATA		{}
+[22:44:12]  RESULT		"WebdriverIO - Selenium 2.0 javascript bindings for nodejs"
+․[22:44:12]  COMMAND	DELETE 	 "/wd/hub/session/576aa13e-3733-4cbd-9cef-9b59505c5ff6"
+[22:44:12]  DATA		{}
+[22:44:12]  RESULT		null
+
+
+1 passing (5.50s)
+

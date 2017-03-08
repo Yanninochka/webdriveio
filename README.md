@@ -15,4 +15,17 @@ git config --global push.default simple
 git config --list
 ```
 
+Run selenium server
+-------------------
+java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar
+
+
+Run simple test
+---------------
+node test.js
+
+
+Run spec test
+-------------
+./node_modules/.bin/wdio wdio.conf.js
 
